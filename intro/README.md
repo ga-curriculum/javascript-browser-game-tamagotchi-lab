@@ -56,7 +56,7 @@ Well-written pseudocode should be easily translated into actual code. The best w
 
 6) Handle each instance of a player clicking a button with the use of a `handleClick` function.
 
-7) Create Reset functionality.
+7) Create reset functionality.
 ```
 
 Next, we can start expanding on these steps with detailed pseudocode.
