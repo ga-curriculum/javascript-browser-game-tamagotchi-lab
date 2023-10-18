@@ -1,4 +1,4 @@
-# [tktk Module Name] - Setup
+# Tamagotchi Lab - Setup
 
 ![Hero image](./assets/hero.png)
 
