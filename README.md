@@ -9,7 +9,7 @@ In this lab students build a Tamagotchi game that incorporates the technologies 
 - HTML
 - CSS
 - JavaScript
- DOM manipulation
+- DOM manipulation
 
 ## Lab content
 
