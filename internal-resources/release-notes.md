@@ -14,7 +14,7 @@ This release modularizes the legacy Tamagotchi lab and provides some other minor
 
 **Changes**
 
-
+This release  simplifies the code to be more accessible to learners. Corresponding changes to lecture copy were made to support these changes.
 
 **Removals**
 
