@@ -10,6 +10,19 @@ In this lab, you will build a Tamagotchi game incorporating the web technologies
 - JavaScript
 - DOM Manipulation
 
+## What is Tamagotchi? 
+
+Tamagotchi were a huge toy fad in the late 90's and early 2000's - essentially, they were small pet simulators that entrusted the care of a digital creature to a player. We will be building a very paired-down game based on this premise. For our purposes, the game of Tamagotchi consists of the following: 
+
+- It's a one player game.
+- The player is tasked with keeping a creature happy.
+- Each creature a player 'raises' has three main statistics.
+- The stats are:
+  - Boredom
+  - Hunger
+  - Sleepiness
+-To keep the creature happy, a player must keep 3 stats within a given range - greater than 0, and less than 10.
+
 ## Minimum Requirements
 
 - Display three buttons when the page is initially displayed.
