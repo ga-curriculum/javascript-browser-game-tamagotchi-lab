@@ -14,8 +14,10 @@ In this lab students build a Tamagotchi game that incorporates the technologies 
 ## Lab content
 
 - [Setup](./setup/README.md)
-- [Lab exercise](./exercise/README.md)
-- [tktk Starter code remove if no starter](#tktk-external-repo-link)
+- [Lab Exercise - Intro](./intro/README.md)
+- [Lab Exercise - Steps 1, 2, and 3](./exercise-1-3/README.md)
+- [Lab Exercise - Steps 4 and 5](./exercise-4-5/README.md)
+- [Lab Exercise - Steps 6 and 7](./exercise-6-7/README.md)
 - [tktk Solution code](#tktk-external-repo-link)
 
 ## Time to complete
