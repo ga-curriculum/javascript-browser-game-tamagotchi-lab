@@ -1,10 +1,15 @@
-# [tktk Module Name]
+# Tamagotchi Lab
 
 ![Hero image](./assets/tktkhero-main.png)
 
 ## Introduction
 
-tktk Introduce the lab. What will the students build in this lab?
+In this lab students build a Tamagotchi game that incorporates the technologies and practices they've learned so far:
+
+- HTML
+- CSS
+- JavaScript
+ DOM manipulation
 
 ## Lab content
 
