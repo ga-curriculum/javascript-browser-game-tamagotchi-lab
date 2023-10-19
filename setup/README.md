@@ -45,39 +45,50 @@ There is some starter code associated with this lab. First the HTML for your `in
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tamagotchi</title>
     <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/app.js" defer></script>
   </head>
 
   <body>
     <header>
-      <h1 class="game-title">Tamagotchi Code Along</h1>
+      <h1>Tamagotchi</h1>
     </header>
+    <main>
 
-    <main class="container">
       <!-- game interface / UI section -->
-      <section id="controller" class="button-wrapper">
+      <section class="button-wrapper">
         <button id="play">play</button>
         <button id="feed">feed</button>
         <button id="sleep">sleep</button>
       </section>
 
       <!-- game data section -->
-      <section id="stat-display" class="stats-wrapper">
-        <p>Boredom: <span id="boredom-stat">...</span></p>
-        <p>Hunger: <span id="hunger-stat">...</span></p>
-        <p>Sleepiness: <span id="sleepiness-stat">...</span></p>
+      <section class="stats-wrapper">
+        <p>Boredom: 
+          <span id="boredom-stat">...</span>
+        </p>
+        <p>Hunger: 
+          <span id="hunger-stat">...</span>
+        </p>
+        <p>Sleepiness:
+          <span id="sleepiness-stat">...</span>
+        </p>
       </section>
 
       <!-- game display / messaging section -->
-      <section id="game-state" class="game-state-wrapper">
+      <section class="game-state-wrapper">
         <h2 id="message" class="hidden">
-          Oh no! <span id="message-content"> You lose!</span>
+          Oh no! You Lose!
         </h2>
-        <img id="tama-graphic" src="../assets/wolf-1.png" class="game-graphic" />
+        <img 
+          src="../assets/wolf-1.png" 
+          class="game-graphic" 
+          alt="a cute pixelated wolf" 
+        />
         <button id="restart" class="hidden">Play Again</button>
       </section>
+      
     </main>
   </body>
 </html>
@@ -107,8 +118,13 @@ h2 {
   font-size: 1.7rem;
 }
 
+/* headings */
+header {
+  text-align: center;
+}
+
 /* layout */
-.container {
+main {
   max-width: 90vw;
   margin: 0 auto;
 }
@@ -131,11 +147,6 @@ h2 {
   align-items: center;
 }
 
-/* headings */
-.game-title {
-  text-align: center;
-}
-
 /* button styling*/
 button {
   font-size: 1.5rem;
@@ -148,18 +159,23 @@ button {
   transition: background-color 2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+button:hover {
+  background-color: #3880d7;
+}
+
 button:active {
   background-color: #2e6bb6;
 }
 
 /* images */
-#tama-graphic {
+.game-graphic {
   max-height: 33vmin;
 }
 
 .hidden {
   visibility: hidden;
 }
+
 ```
 
 Finally, there is a bit of optional boilerplate you can add to your JavaScript to make it easier to find sections inside of it. Add it to your js/app.js if you'd like.
