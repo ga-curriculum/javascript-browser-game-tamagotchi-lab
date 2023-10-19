@@ -21,7 +21,7 @@ Tamagotchi were a huge toy fad in the late 90's and early 2000's - essentially, 
   - Boredom
   - Hunger
   - Sleepiness
--To keep the creature happy, a player must keep 3 stats within a given range - greater than 0, and less than 10.
+- To keep the creature happy, a player must keep 3 stats within a given range - greater than 0, and less than 10.
 
 ## Minimum Requirements
 
@@ -34,7 +34,7 @@ Tamagotchi were a huge toy fad in the late 90's and early 2000's - essentially, 
 ## Items of note
 
 - Using `id`/`class` attributes will help you target elements for styling and wiring up your click event listeners. These have already been added for you in this lab!
-- Programs, including games, frequently focus on manipulating and displaying that data to a user. Decide on the data structures held in variables you will use to maintain the game's state (its current data or status).
+- Programs, including games, frequently focus on manipulating and displaying data to a user. Decide on the data structures held in variables you will use to maintain the game's state (its current data or status).
 - Lots of little functions with small jobs help accomplish big things!
 
 ## Pseudocode 
