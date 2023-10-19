@@ -18,7 +18,7 @@ In this lab students build a Tamagotchi game that incorporates the technologies 
 - [Lab Exercise - Steps 1, 2, and 3](./exercise-1-3/README.md)
 - [Lab Exercise - Steps 4 and 5](./exercise-4-5/README.md)
 - [Lab Exercise - Steps 6 and 7](./exercise-6-7/README.md)
-- [Solution code](#https://git.generalassemb.ly/modular-curriculum-all-courses/tamagotchi-lab-solution)
+- [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tamagotchi-lab-solution)
 
 ## Time to complete
 
