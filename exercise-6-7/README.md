@@ -6,7 +6,7 @@
 
 #### Handle each instance of a player clicking a button with the use of a `handleClick` function.
 
-a. Make a function called `playBtnClick()`.
+a. Make a function called `playBtnClick`.
 
 b. Inside this new function, set `state.boredom` to `0`. 
 

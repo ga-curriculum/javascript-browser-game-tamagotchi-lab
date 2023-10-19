@@ -37,13 +37,15 @@ Upon loading, the game state should be initialized, and a function should be cal
 
 a. Create a function called `init`. 
 
-b. Call this `init` function when the app loads. 
+b. Call this `init` function, so that it is invoked when the app loads. 
 > 🚨 🚨 Add a console.log() as a confirmation check inside this function. This helps to ensure you're calling the function you just created correctly!
 
-c. Assign `timer` to a [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/setInterval) function. Pass `setInterval` a function named `runGame` (we will create it in the next step) as the first argument, and `2000` as the second argument.
+c. Set `gameOver` to `false`.
 
-d. Create a function named `runGame`. For now, it should simply `console.log`: 'the game is running!'
+d. Inside of the `init()` function, assign `timer` to a [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/setInterval) function. Pass `setInterval` a function named `runGame()` (we will create it in the next step) as the first argument, and `2000` as the second argument.
+
+e. Create a function named `runGame`. For now, it should simply `console.log()`: 'the game is running!'
 > 💡 Check your console to confirm this is working - you should see 'the game is running!' log to the console every 2 seconds. 
 
-e. Finally, call a function named `render`. 
+f. Finally, call a function named `render()`. 
 > 🚨 As we have not made this function yet, this will throw an arrow until you complete step 4a! 
