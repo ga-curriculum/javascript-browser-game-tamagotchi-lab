@@ -19,10 +19,10 @@ c. Use a variable named `gameOver` to present if the player has lost the game.
 Store cached element references. 
 
 a. Make 3 constants to store the `spans` inside of the 'stat-display'`section`. 
-> As an example, in a constant called `boredomStateEl`, store the element with an id of `boredom-stat`
+> As an example, in a constant called `boredomStateEl`, store the element with an id of `boredom-stat`.
 
 b. Make 3 constants to store the button elements inside of the 'controller' `section`.
-> As an example, in a constant called `playBtnEl`, store the element with an id of `play`
+> As an example, in a constant called `playBtnEl`, store the element with an id of `play`.
 
 c. In a constant called `gameMessageEl`, store the element that displays the game's status on the page. 
 
