@@ -4,7 +4,7 @@
 
 ## Step 6
 
-#### Handle each instance of a player clicking a button with the use of a `handleClick` function.
+### Handle each instance of a player clicking a button with the use of a `handleClick` function.
 
 a. Make a function called `playBtnClick`.
 
@@ -22,7 +22,7 @@ Test it out - as a user, you should now be able to keep your Tamagotchi happy!
 
 ## Step 7
 
-#### Create reset functionality.
+### Create reset functionality.
 
 a. Add an event listener to `resetBtnEl`. When a click occurs, invoke `init()`. 
 

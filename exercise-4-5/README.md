@@ -4,7 +4,7 @@
 
 ## Step 4
 
-#### The state of the game should be rendered to the user. 
+### The state of the game should be rendered to the user. 
 
 a. Create an empty function called `render`, then set it aside for now. 
 
@@ -32,7 +32,7 @@ For now, we don't have any condition by which this timer will end, so we've made
 
 ## Step 5
 
-#### Handle the game over logic. 
+### Handle the game over logic. 
 
 a. Create a function called `checkGameOver`. 
 
