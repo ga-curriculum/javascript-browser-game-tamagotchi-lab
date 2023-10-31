@@ -1,6 +1,4 @@
-# Tamagotchi Lab
-
-![Hero image](./assets/tktkhero-main.png)
+# ![JavaScript Browser Game Tamagotchi Lab](./assets/tktkhero-main.png)
 
 ## Introduction
 
