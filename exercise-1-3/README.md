@@ -2,6 +2,8 @@
 
 ![Hero image](./assets/hero.png)
 
+tktk hunter -- asset of finished product here
+
 ## Step 1
 
 Define the variables used the track the state of the game.
@@ -49,3 +51,6 @@ e. Create a function named `runGame`. For now, it should simply `console.log(): 
 
 f. Finally, call a function named `render()`. 
 > 🚨 As we have not made this function yet, this will throw an arrow until you complete step 4a! 
+
+
+tktk hunter -- asset of progress up to step 3: maybe with the console open showing the logs we're requesting or something?

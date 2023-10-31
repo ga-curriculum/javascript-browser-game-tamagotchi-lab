@@ -35,3 +35,5 @@ c. Set the value of each stat property in `state` to `0`.
 Congrats on coding a cool game of Tamagotchi! 🎉
 
 Hopefully, you're inspired to apply the process we followed today to code another game!
+
+tktk hunter -- asset of finished game, maybe in progress with reset button visible?
