@@ -1,7 +1,5 @@
 # ![JavaScript Browser Game - Tamagotchi Lab - Exercise Steps One, Two, and Three](./assets/hero-exercise-steps-one-two-and-three.png)
 
-tktk hunter -- asset of finished product here
-
 ## Step 1
 
 Define the variables used the track the state of the game.
@@ -19,7 +17,7 @@ c. Use a variable named `gameOver` to present if the player has lost the game.
 Store cached element references. 
 
 a. Make 3 constants to store the `spans` inside of the 'stat-display'`section`. 
-> As an example, in a constant called `boredomStateEl`, store the element with an id of `boredom-stat`.
+> As an example, in a constant called `boredomStatEl`, store the element with an id of `boredom-stat`.
 
 b. Make 3 constants to store the button elements inside of the 'controller' `section`.
 > As an example, in a constant called `playBtnEl`, store the element with an id of `play`.
@@ -27,7 +25,6 @@ b. Make 3 constants to store the button elements inside of the 'controller' `sec
 c. In a constant called `gameMessageEl`, store the element that displays the game's status on the page. 
 
 d. In a constant called `resetBtnEl`, store the button element that will allow the player to play again.
-
 
 > 🚨 Don't forget to console.log() your cached element references to ensure you've grabbed the correct elements!
 
@@ -52,3 +49,5 @@ f. Finally, call a function named `render()`.
 
 
 tktk hunter -- asset of progress up to step 3: maybe with the console open showing the logs we're requesting or something?
+
+# ![Completed App](./assets/tamagotchi-app-one.png)

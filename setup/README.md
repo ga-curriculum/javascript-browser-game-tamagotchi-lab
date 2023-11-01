@@ -172,6 +172,7 @@ button:active {
 /* images */
 .game-graphic {
   max-height: 33vmin;
+  margin-bottom: 32px;
 }
 
 .hidden {

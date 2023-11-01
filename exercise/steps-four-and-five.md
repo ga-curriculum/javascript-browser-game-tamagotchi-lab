@@ -28,6 +28,8 @@ Then, around two seconds later, `runGame()` is called again. Our state updates. 
 
 For now, we don't have any condition by which this timer will end, so we've made something of an endless loop! We'll address that in the next step! 
 
+# ![Displaying State](./assets/tamagotchi-app-two.png)
+
 ## Step 5
 
 ### Handle the game over logic. 
@@ -82,7 +84,5 @@ f. Inside the `if` statement in `render()`, remove the "hidden" class from both 
 
 Give it a test! When the loss conditions are met, you should see both the `h1` and the `button` element appear! 
 
+# ![Game Over](./assets/tamagotchi-app-three.png)
 
-
-
-tktk hunter -- asset of result after step 5 when the loss conditions are met with the button and the h1 visible

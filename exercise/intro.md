@@ -8,6 +8,8 @@ In this lab, you will build a Tamagotchi game incorporating the web technologies
 - JavaScript
 - DOM Manipulation
 
+# ![Completed App](./assets/tamagotchi-app-four.png)
+
 ## What is Tamagotchi? 
 
 Tamagotchi were a huge toy fad in the late 90's and early 2000's - essentially, they were small pet simulators that entrusted the care of a digital creature to a player. We will be building a very paired-down game based on this premise. For our purposes, the game of Tamagotchi consists of the following: 
@@ -60,4 +62,3 @@ Well-written pseudocode should be easily translated into actual code. The best w
 Next, we can start expanding on these steps with detailed pseudocode.
 
 The remainder of this exercise walks through those steps. Follow along from start to finish, and you'll have a complete game of Tamagotchi that meets the minimum requirements!
-
