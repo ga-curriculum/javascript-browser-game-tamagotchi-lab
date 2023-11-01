@@ -47,7 +47,4 @@ e. Create a function named `runGame`. For now, it should simply `console.log(): 
 f. Finally, call a function named `render()`. 
 > 🚨 As we have not made this function yet, this will throw an arrow until you complete step 4a! 
 
-
-tktk hunter -- asset of progress up to step 3: maybe with the console open showing the logs we're requesting or something?
-
-# ![Completed App](./assets/tamagotchi-app-one.png)
+# ![Game Running](./assets/tamagotchi-app-one.png)
