@@ -33,7 +33,7 @@ With the files created, open the contents of the directory in VS Code:
 code .
 ```
 
-Next, [download this image](./assets/tomato.png?raw=true) and add it to the `asset` directory in your project.
+Next, [download this image](./assets/tomato.png?raw=true) and add it to the `assets` directory in your project.
 
 ### Starter code
 
