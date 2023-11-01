@@ -1,6 +1,4 @@
-# Tamagotchi Lab - Lab Exercise Intro
-
-![Hero image](./assets/hero.png)
+# ![JavaScript Browser Game - Tamagotchi Lab - Exercise Intro](./assets/hero-exercise-intro.png)
 
 In this lab, you will build a Tamagotchi game incorporating the web technologies and techniques you've worked with thus far:
 

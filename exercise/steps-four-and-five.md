@@ -1,6 +1,4 @@
-# Tamagotchi Lab - Lab Exercise 4-5
-
-![Hero image](./assets/hero.png)
+# ![JavaScript Browser Game - Tamagotchi Lab - Exercise Steps Four and Five](./assets/hero-exercise-steps-four-and-five.png)
 
 ## Step 4
 

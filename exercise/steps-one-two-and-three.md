@@ -1,6 +1,4 @@
-# Tamagotchi Lab - Lab Exercise
-
-![Hero image](./assets/hero.png)
+# ![JavaScript Browser Game - Tamagotchi Lab - Exercise Steps One, Two, and Three](./assets/hero-exercise-steps-one-two-and-three.png)
 
 tktk hunter -- asset of finished product here
 

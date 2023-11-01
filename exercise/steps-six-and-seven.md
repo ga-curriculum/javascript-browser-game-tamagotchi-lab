@@ -1,6 +1,4 @@
-# Tamagotchi Lab - Lab Exercise 6-7
-
-![Hero image](./assets/hero.png)
+# ![JavaScript Browser Game - Tamagotchi Lab - Exercise Steps Six and Seven](./assets/hero-exercise-steps-six-and-seven.png)
 
 ## Step 6
 

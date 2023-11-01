@@ -1,6 +1,4 @@
-# Tamagotchi Lab - Setup
-
-![Hero image](./assets/hero.png)
+# ![JavaScript Browser Game - Tamagotchi Lab - Setup](./assets/hero.png)
 
 ## Setup 
 
