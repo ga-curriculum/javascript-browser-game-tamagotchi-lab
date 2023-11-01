@@ -1,6 +1,4 @@
-# Tamagotchi Lab - Lab Exercise 6-7
-
-![Hero image](./assets/hero.png)
+# ![JavaScript Browser Game - Tamagotchi Lab - Exercise Steps Six and Seven](./assets/hero-exercise-steps-six-and-seven.png)
 
 ## Step 6
 
@@ -36,4 +34,4 @@ Congrats on coding a cool game of Tamagotchi! 🎉
 
 Hopefully, you're inspired to apply the process we followed today to code another game!
 
-tktk hunter -- asset of finished game, maybe in progress with reset button visible?
+# ![Completed App](./assets/tamagotchi-app-four.png)

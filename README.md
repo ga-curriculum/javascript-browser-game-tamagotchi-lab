@@ -1,4 +1,4 @@
-# ![JavaScript Browser Game Tamagotchi Lab](./assets/tktkhero-main.png)
+# ![JavaScript Browser Game - Tamagotchi Lab](./assets/hero.png)
 
 ## Introduction
 

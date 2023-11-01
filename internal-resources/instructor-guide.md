@@ -1,7 +1,4 @@
-# Tamagotchi Lab - Instructor Guide
-
-![Hero image](../assets/tktkhero-secondary.png)
-
+# ![JavaScript Browser Game - Tamagotchi Lab - Instructor Guide](../assets/instructor-guide.png)
 
 ---
 

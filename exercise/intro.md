@@ -1,6 +1,4 @@
-# Tamagotchi Lab - Lab Exercise Intro
-
-![Hero image](./assets/hero.png)
+# ![JavaScript Browser Game - Tamagotchi Lab - Exercise Intro](./assets/hero-exercise-intro.png)
 
 In this lab, you will build a Tamagotchi game incorporating the web technologies and techniques you've worked with thus far:
 
@@ -9,6 +7,8 @@ In this lab, you will build a Tamagotchi game incorporating the web technologies
 - CSS
 - JavaScript
 - DOM Manipulation
+
+# ![Completed App](./assets/tamagotchi-app-four.png)
 
 ## What is Tamagotchi? 
 
@@ -62,4 +62,3 @@ Well-written pseudocode should be easily translated into actual code. The best w
 Next, we can start expanding on these steps with detailed pseudocode.
 
 The remainder of this exercise walks through those steps. Follow along from start to finish, and you'll have a complete game of Tamagotchi that meets the minimum requirements!
-
