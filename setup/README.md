@@ -15,10 +15,10 @@ mkdir tamagotchi-lab
 cd tamagotchi-lab
 ```
 
-Then, create a `js` directory, and a `css` directory. You can make both of these directories at the same time by adding a space between them after the mkdir command!
+Then, create a `js` directory, a `css` directory, and an `assets` directory. You can make these directories at the same time by adding a space between them after the mkdir command!
 
 ```bash
-mkdir js css
+mkdir js css assets
 ```
 
 Next, create an `app.js` file in the `js` directory, a `style.css` file in the `css` directory, and an `index.html` file in the root of the project. Create all of these files at the same time by adding a space between them after the touch command. These files will hold your work for this lab:
@@ -32,6 +32,8 @@ With the files created, open the contents of the directory in VS Code:
 ```bash
 code .
 ```
+
+Next, [download this image](./assets/tomato.png?raw=true) and add it to the `asset` directory in your project.
 
 ### Starter code
 
@@ -80,9 +82,9 @@ There is some starter code associated with this lab. First the HTML for your `in
           Oh no! You Lose!
         </h2>
         <img 
-          src="../assets/wolf-1.png" 
           class="game-graphic" 
-          alt="a cute pixelated wolf" 
+          alt="a tomato monster" 
+          src="./assets/tomato.png" 
         />
         <button id="restart" class="hidden">Play Again</button>
       </section>
@@ -101,10 +103,10 @@ Next, add this CSS into your `css/style.css` file:
 }
 
 body {
+  font-size: 16px;
   min-height: 100vh;
   background-color: #e6e6e6;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-family: system-ui, sans-serif;
 }
 
 /* element styles */
@@ -134,26 +136,28 @@ main {
 
 .stats-wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   text-align: center;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .game-state-wrapper {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* button styling*/
 button {
-  font-size: 1.5rem;
-  line-height: 1em;
   padding: 1.5rem;
-  background-color: #4597f8;
-  color: white;
+  line-height: 1em;
+  font-size: 1.5rem;
+
   border: 0;
   border-radius: 0.5rem;
+  
+  color: white;
+  background-color: #4597f8;
   transition: background-color 2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
