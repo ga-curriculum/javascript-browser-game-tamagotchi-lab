@@ -1,15 +1,21 @@
 # ![JavaScript Browser Game - Tamagotchi Lab](./assets/hero.png)
 
-## Introduction
+## About
 
 In this lab students build a Tamagotchi game that incorporates the technologies and practices they've learned so far:
+
+## Prerequisites
 
 - HTML
 - CSS
 - JavaScript
 - DOM manipulation
 
-## Lab content
+## Time to complete
+
+tktk Estimated time to complete core lab exercise: 
+
+## Content
 
 - [Setup](./setup/README.md)
 - [Lab Exercise - Intro](./intro/README.md)
@@ -18,13 +24,6 @@ In this lab students build a Tamagotchi game that incorporates the technologies 
 - [Lab Exercise - Steps 6 and 7](./exercise-6-7/README.md)
 - [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tamagotchi-lab-solution)
 
-## Time to complete
-
-tktk Estimated time to complete core lab exercise: 
-
-## Additional content 
-
-🚀 [Level Up](./level-up/README.md)
 
 ## Internal resources
 
