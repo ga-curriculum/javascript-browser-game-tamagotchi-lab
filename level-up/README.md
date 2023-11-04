@@ -1,1 +1,0 @@
-# ![JavaScript Browser Game - Tamagotchi Lab - Level Up](./assets/hero.png)
