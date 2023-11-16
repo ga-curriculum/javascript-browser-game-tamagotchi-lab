@@ -2,7 +2,6 @@
 
 In this lab, you will build a Tamagotchi game incorporating the web technologies and techniques you've worked with thus far:
 
-- Git
 - HTML
 - CSS
 - JavaScript
