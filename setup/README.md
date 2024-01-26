@@ -1,6 +1,6 @@
 # ![JavaScript Browser Game - Tamagotchi Lab - Setup](./assets/hero.png)
 
-## Setup 
+## Setup
 
 Open your Terminal application and navigate to your ~/code/ga/labs directory:
 
@@ -10,10 +10,9 @@ cd ~/code/ga/labs
 
 Navigate to [GitHub](https://github.com/) and create a new repository named **tamagotchi-lab**.
 
-  - Make sure the repo is set to `public`
-  - You do not need a `README.md`
-  - You do not need a `.gitignore`
-
+- Make sure the repo is set to `public`
+- You do not need a `README.md`
+- You do not need a `.gitignore`
 
 Using the `Quick Setup` option, clone your newly created repo into your `~/code/ga/labs` directory with the `git clone` command:
 
@@ -108,7 +107,7 @@ There is some starter code associated with this lab. First the HTML for your `in
 </html>
 ```
 
-Next, add this CSS into your `css/style.css` file: 
+Next, add this CSS into your `css/style.css` file:
 
 ```css
 /* global styles  */
@@ -215,6 +214,7 @@ Finally, there is a bit of optional boilerplate you can add to your JavaScript t
 
 
 /*----------------------------- Event Listeners -----------------------------*/
+
 
 ```
 

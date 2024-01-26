@@ -7,11 +7,11 @@ In this lab, you will build a Tamagotchi game incorporating the web technologies
 - JavaScript
 - DOM Manipulation
 
-# ![Completed App](./assets/tamagotchi-app-four.png)
+![Completed App](./assets/tamagotchi-app-four.png)
 
-## What is Tamagotchi? 
+## What is Tamagotchi?
 
-Tamagotchi were a huge toy fad in the late 90's and early 2000's - essentially, they were small pet simulators that entrusted the care of a digital creature to a player. We will be building a very paired-down game based on this premise. For our purposes, the game of Tamagotchi consists of the following: 
+Tamagotchi were a huge toy fad in the late 90's and early 2000's - essentially, they were small pet simulators that entrusted the care of a digital creature to a player. We will be building a very paired-down game based on this premise. For our purposes, the game of Tamagotchi consists of the following:
 
 - It's a one player game.
 - The player is tasked with keeping a creature happy.
@@ -36,26 +36,28 @@ Tamagotchi were a huge toy fad in the late 90's and early 2000's - essentially, 
 - Programs, including games, frequently focus on manipulating and displaying data to a user. Decide on the data structures held in variables you will use to maintain the game's state (its current data or status).
 - Lots of little functions with small jobs help accomplish big things!
 
-## Pseudocode 
+## Pseudocode
 
 Pseudocode is a detailed description of what an application must do, written in natural language instead of a particular programming language.
 
 Well-written pseudocode should be easily translated into actual code. The best way to get started is to start with the big picture of what the app needs to do:
 
-```
-1) Define the required variables used to track the state of the game.
+```javascript
+// 1) Define the required variables used to track the state of the game.
 
-2) Store cached element references.
+// 2) Store cached element references.
 
-3) Upon loading, the game state should be initialized, and a function should be called to render this game state.
+// 3) Upon loading, the game state should be initialized, and a function should 
+//    be called to render this game state.
 
-4) The state of the game should be rendered to the user.
+// 4) The state of the game should be rendered to the user.
 
-5) Handle the game over logic. 
+// 5) Handle the game over logic. 
 
-6) Handle each instance of a player clicking a button with the use of a `handleClick` function.
+// 6) Handle each instance of a player clicking a button with the use of a 
+//    `handleClick()` function.
 
-7) Create reset functionality.
+// 7) Create reset functionality.
 ```
 
 Next, we can start expanding on these steps with detailed pseudocode.
