@@ -8,10 +8,6 @@ In this lab, you will recreate a simplified version of this classic game, bringi
 
 While fun and engaging, this lab demonstrates the real-world application of these foundational web development skills, solidifying your understanding and preparing you for more complex projects ahead.
 
-## Time to complete
-
-Estimated time to complete core lab exercises: **3 hrs**
-
 ## Content
 
 - [Setup](../setup/README.md)
