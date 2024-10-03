@@ -1,4 +1,7 @@
-# ![JavaScript Browser Game - Tamagotchi Lab - Setup](./assets/hero.png)
+<h1>
+  <span class="headline">Tamagotchi Lab</span>
+  <span class="subhead">Setup</span>
+</h1>
 
 ## Setup
 

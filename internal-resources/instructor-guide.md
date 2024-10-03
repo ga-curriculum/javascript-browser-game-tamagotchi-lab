@@ -1,4 +1,7 @@
-# ![JavaScript Browser Game - Tamagotchi Lab - Instructor Guide](../assets/instructor-guide.png)
+<h1>
+  <span class="headline">Tamagotchi Lab</span>
+  <span class="subhead">Instructor Guide</span>
+</h1>
 
 ---
 
