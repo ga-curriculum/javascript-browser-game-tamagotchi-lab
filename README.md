@@ -5,7 +5,7 @@
 
 ## About
 
-Welcome to Tamagotchi Lab, a nostalgic journey to the late 90s and early 2000s, where virtual pet simulators were all the rage!
+Welcome to the JavaScript Browser Game Tamagotchi Lab, a nostalgic journey to the late 90s and early 2000s, where virtual pet simulators were all the rage!
 
 In this lab, you will recreate a simplified version of this classic game, bringing together your knowledge of HTML, CSS, and DOM manipulation. You'll be faced with the challenge of managing three critical statistics for your creature – Boredom, Hunger, and Sleepiness – keeping them within a safe range to maintain a happy and healthy virtual pet.
 

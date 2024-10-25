@@ -11,7 +11,7 @@ Open your Terminal application and navigate to your ~/code/ga/labs directory:
 cd ~/code/ga/labs
 ```
 
-Navigate to [GitHub](https://github.com/) and create a new repository named **tamagotchi-lab**.
+Navigate to [GitHub](https://github.com/) and create a new repository named **javascript-browser-game-tamagotchi-lab**.
 
 - Make sure the repo is set to `public`
 - You do not need a `README.md`
@@ -20,15 +20,15 @@ Navigate to [GitHub](https://github.com/) and create a new repository named **ta
 Using the `Quick Setup` option, clone your newly created repo into your `~/code/ga/labs` directory with the `git clone` command:
 
 ```bash
-git clone https://github.com/<your-username>/tamagotchi-lab.git
+git clone https://github.com/<your-username>/javascript-browser-game-tamagotchi-lab.git
 ```
 
 > Note: In the link above, where it says `<your-username>`, you should see the username from your GitHub account.
 
-Next, `cd` into your new cloned directory, `tamagotchi-lab`:
+Next, `cd` into your new cloned directory, `javascript-browser-game-tamagotchi-lab`:
 
 ```bash
-cd tamagotchi-lab
+cd javascript-browser-game-tamagotchi-lab
 ```
 
 Then, create a `js` directory, a `css` directory, and an `assets` directory. You can make these directories at the same time by adding a space between them after the mkdir command!
