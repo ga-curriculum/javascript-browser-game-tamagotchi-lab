@@ -1,4 +1,7 @@
-# ![JavaScript Browser Game - Tamagotchi Lab - Exercise Steps Four and Five](./assets/hero-exercise-steps-four-and-five.png)
+<h1>
+  <span class="headline">Tamagotchi Lab</span>
+  <span class="subhead">Exercise Parts 4-5</span>
+</h1>
 
 ## Step 4
 
