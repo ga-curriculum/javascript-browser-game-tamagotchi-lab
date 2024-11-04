@@ -11,6 +11,8 @@ In this lab, you will recreate a simplified version of this classic game, bringi
 
 While fun and engaging, this lab demonstrates the real-world application of these foundational web development skills, solidifying your understanding and preparing you for more complex projects ahead.
 
+![Complete Application Image](./assets/complete-app.png)
+
 ## Content
 
 - [Setup](./setup/README.md)
@@ -33,9 +35,13 @@ Estimated time to complete core lab exercise: **180 min**
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tamagotchi-lab-solution)
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/javascript-browser-game-tamagotchi-lab-solution/)
 
-### Github Pages Sites
+### Deployed sites
+
+🌐 [Live Example](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/javascript-browser-game-tamagotchi-lab-solution/)
+
+### Course landing pages
 
 - [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/javascript-browser-game-tamagotchi-lab/canvas-landing-pages/fallback)
 - [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/javascript-browser-game-tamagotchi-lab/canvas-landing-pages/seb)

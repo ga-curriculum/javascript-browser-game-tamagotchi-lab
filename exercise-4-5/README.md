@@ -56,7 +56,7 @@ e. In `render()`, add an `if` statement that checks if `gameOver` is `true`. If 
 
 At this stage, the logic for ending the game is complete! However, aside from the numbers no longer incrementing, the user will have no way to know they have lost. So, next we'll need to render a message to the user.
 
-In the CSS of the starter code, we created a class called `hidden` which sets `visiblity` to hidden.
+In the CSS of the starter code, we created a class called `hidden` which sets `visibility` to hidden.
 
 ```css
 .hidden {
