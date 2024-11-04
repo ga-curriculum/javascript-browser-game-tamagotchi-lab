@@ -19,3 +19,7 @@ While fun and engaging, this lab demonstrates the real-world application of thes
 - [Exercise: Part 1 - 3](../exercise-1-3/README.md)
 - [Exercise: Part 4 - 5](../exercise-4-5/README.md)
 - [Exercise: Part 6 - 7](../exercise-6-7/README.md)
+
+## Deployed sites
+
+🌐 [Live Example](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/javascript-browser-game-tamagotchi-lab-solution/)
