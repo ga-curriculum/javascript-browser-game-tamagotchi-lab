@@ -14,7 +14,6 @@ While fun and engaging, this lab demonstrates the real-world application of thes
 ## Content
 
 - [Setup](../setup/README.md)
-- [Setup](../setup/README.md)
 - [Exercise: Intro](../exercise-intro/README.md)
 - [Exercise: Part 1 - 3](../exercise-1-3/README.md)
 - [Exercise: Part 4 - 5](../exercise-4-5/README.md)
