@@ -15,7 +15,7 @@ c. In the `updateStates()` function, increment each property of  `state` by a ra
 
 > 💡 While not strictly necessary, a helper function that handles the logic of generating a random number might be helpful here!
 >
-> Check out the documentation on [`Math.random()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) for more on how to generate a random number.
+> Check out [MDN's `Math.random()` documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) for more info on generating random numbers.
 
 d. Remove the console.log in `runGame()`. Then, inside `runGame()`, invoke `updateStates()` and `render()`.
 
@@ -27,7 +27,7 @@ e. Inside `render()`, assign each cached stat element's [`textContent`](https://
 
 Let's pause a second to run through the current flow of our program. When the page loads, we call `init()`. `init()` starts a timer that calls `runGame()` every 2000 milliseconds.
 
-`runGame()` calls `updateStates()`, which increments each of the stats in our `state` variable by a random number between 0-3. After this happens, `runGame()` calls `render()`. `render()` updates the user interface to reflect the current (updated) state of each stat.
+`runGame()` calls `updateStates()`, which increments each of the stats in our `state` variable by a random number between 0-3. After this happens, `runGame()` calls `render()`. The `render()` function updates the user interface to reflect the newly updated state of each stat.
 
 Then, around two seconds later, `runGame()` is called again. Our state updates. We render these changes to the UI. Two seconds later, `runGame()` is called again - the whole process repeats on and on.
 
@@ -41,22 +41,21 @@ For now, we don't have any condition by which this timer will end, so we've made
 
 a. Create a function called `checkGameOver`.
 
-b. Inside this new function, create an `if` statement that checks if any of the `state` properties has a value of 10 or more.
+b. Inside this new function, create an `if` statement that checks if any `state` property has a value of 10 or more.
 
 c. If so, set `gameOver` to `true`.
 
 d. Inside of `runGame()`, invoke `checkGameOver()` between `updateStates()` and `render()`.
-> 💡 The order in which we invoke these functions matters. Our `checkGameOver()` function references `state` to determine if the game over condition has been met or not. If we do this before `updateState()` has a chance to run, we'll always be referencing 'old' state!
 
-e. In `render()`, add an `if` statement that checks if `gameOver` is `true`. If so, call  on `timer.clearInterval()`.
+> 💡 The order in which we invoke these functions matters. Our `checkGameOver()` function references `state` to determine whether the game over condition has been met. If we do this before `updateState()` has a chance to run, we'll always be referencing the old state!
 
----
+e. In `render()`, add an `if` statement that checks if `gameOver` is `true`. If it is, end the countdown using the `Window`'s `clearInterval()` method. You'll need to pass the `timer` you created earlier as an argument to the method. See [MDN's `clearInterval()` documentation](https://developer.mozilla.org/en-US/docs/Web/API/Window/clearInterval) for more details about how this works.
 
 #### A quick aside
 
-At this stage, the logic for ending the game is complete! However, aside from the numbers no longer incrementing, the user will have no way to know they have lost. So, next we'll need to render a message to the user.
+At this stage, the logic for ending the game is complete! However, aside from the numbers no longer incrementing, the user will have no way to know they have lost. So, next, we'll need to render a message to the user.
 
-In the CSS of the starter code, we created a class called `hidden` which sets `visibility` to hidden.
+In the CSS of the starter code, we created a rule for the `hidden` class, which sets the `visibility` of an element with this class to `hidden`.
 
 ```css
 .hidden {
@@ -80,13 +79,13 @@ We also gave this class to two elements inside this HTML section:
 </section>
 ```
 
-As a result. both the `h2` and the `button` are hidden by default.
+As a result, both the `h2` and the `button` are hidden by default.
 
 When the game ends, we want to remove these two instances of the 'hidden' class.
 
-f. Inside the `if` statement in `render()`, remove the "hidden" class from both the `resetBtnEl` and the `gameMessageEl`.
+f. Inside the `if` statement in `render()`, remove the "hidden" class from the `resetBtnEl` and the `gameMessageEl`.
 
-> 💡 Check out the the docs on [classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) for help, if needed!
+> 💡 Check out the docs on [classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) for help if you need it!
 
 Give it a test! When the loss conditions are met, you should see both the `h1` and the `button` element appear!
 

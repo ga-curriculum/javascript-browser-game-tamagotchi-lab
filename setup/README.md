@@ -5,13 +5,13 @@
 
 ## Setup
 
-Open your Terminal application and navigate to your ~/code/ga/labs directory:
+Open your Terminal application and navigate to your `~/code/ga/labs` directory:
 
 ```bash
 cd ~/code/ga/labs
 ```
 
-Navigate to [GitHub](https://github.com/) and create a new repository named **javascript-browser-game-tamagotchi-lab**.
+Navigate to [GitHub](https://github.com/) and create a new repository named `javascript-browser-game-tamagotchi-lab`.
 
 - Make sure the repo is set to `public`
 - You do not need a `README.md`
@@ -23,21 +23,21 @@ Using the `Quick Setup` option, clone your newly created repo into your `~/code/
 git clone https://github.com/<your-username>/javascript-browser-game-tamagotchi-lab.git
 ```
 
-> Note: In the link above, where it says `<your-username>`, you should see the username from your GitHub account.
+> 🚨 Do not use the above command exactly. It will not work. Replace `<github-username>` (including the `<` and `>`) in the URL above with your username.
 
-Next, `cd` into your new cloned directory, `javascript-browser-game-tamagotchi-lab`:
+Next, `cd` into the new cloned directory:
 
 ```bash
 cd javascript-browser-game-tamagotchi-lab
 ```
 
-Then, create a `js` directory, a `css` directory, and an `assets` directory. You can make these directories at the same time by adding a space between them after the mkdir command!
+Then, create a `js` directory, a `css` directory, and an `assets` directory. You can make these directories with one line by adding a space between them after the `mkdir` command!
 
 ```bash
 mkdir js css assets
 ```
 
-Next, create an `app.js` file in the `js` directory, a `style.css` file in the `css` directory, and an `index.html` file in the root of the project. Create all of these files at the same time by adding a space between them after the touch command. These files will hold your work for this lab:
+Next, create an `app.js` file in the `js` directory, a `style.css` file in the `css` directory, and an `index.html` file in the root of the project. Create these files in one line by adding a space between them after the `touch` command. These files will hold your work for this lab:
 
 ```bash
 touch ./js/app.js ./css/style.css index.html
@@ -53,7 +53,7 @@ Next, [download this image](../assets/tomato.png?raw=true) and add it to the `as
 
 ### Starter code
 
-There is some starter code associated with this lab. First the HTML for your `index.html` file:
+There is some starter code associated with this lab. First, the HTML for your `index.html` file:
 
 ```html
 <!DOCTYPE html>
@@ -110,7 +110,7 @@ There is some starter code associated with this lab. First the HTML for your `in
 </html>
 ```
 
-Next, add this CSS into your `css/style.css` file:
+Next, add this CSS to your `css/style.css` file:
 
 ```css
 /* global styles  */
@@ -197,7 +197,7 @@ button:active {
 
 ```
 
-Finally, there is a bit of optional boilerplate you can add to your JavaScript to make it easier to find sections inside of it. Add it to your js/app.js if you'd like.
+Finally, you can add a bit of optional boilerplate to your JavaScript to make it easier to find sections inside of it. Add it to your `js/app.js` if you'd like.
 
 ```javascript
 /*-------------------------------- Constants --------------------------------*/

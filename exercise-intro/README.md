@@ -14,28 +14,28 @@ In this lab, you will build a Tamagotchi game incorporating the web technologies
 
 ## What is Tamagotchi?
 
-Tamagotchi were a huge toy fad in the late 90's and early 2000's - essentially, they were small pet simulators that entrusted the care of a digital creature to a player. We will be building a very paired-down game based on this premise. For our purposes, the game of Tamagotchi consists of the following:
+Tamagotchi was a huge toy fad in the late '90s and early 2000s - essentially, they were small pet simulators that entrusted the care of a digital creature to a player. We will be building a very paired-down game based on this premise. For our purposes, the game of Tamagotchi consists of the following:
 
-- It's a one player game.
+- It's a one-player game.
 - The player is tasked with keeping a creature happy.
 - Each creature a player 'raises' has three main statistics.
 - The stats are:
   - Boredom
   - Hunger
   - Sleepiness
-- To keep the creature happy, a player must keep 3 stats within a given range - greater than 0, and less than 10.
+- To keep the creature happy, a player must keep three stats within a given range - greater than 0 and less than 10.
 
 ## Minimum Requirements
 
 - Display three buttons when the page is initially displayed.
 - Display three stats that randomly increment a value between 0 and 3 at a set interval.
-- A player can click on a button to set the corresponding stat to `0`.
-- Provide lose logic, and display a losing message.
+- A player can click a button to set the corresponding stat to `0`.
+- Include loss logic and display a message when the player has lost.
 - Provide a `Play Again` button that will reset the game.
 
 ## Items of note
 
-- Using `id`/`class` attributes will help you target elements for styling and wiring up your click event listeners. These have already been added for you in this lab!
+- Using `id`/`class` attributes will help you target elements for styling and wiring up your click event listeners. These have already been added for you!
 - Programs, including games, frequently focus on manipulating and displaying data to a user. Decide on the data structures held in variables you will use to maintain the game's state (its current data or status).
 - Lots of little functions with small jobs help accomplish big things!
 

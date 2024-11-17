@@ -17,9 +17,9 @@ d. Next, attach an [event listener](https://developer.mozilla.org/en-US/docs/Web
 
 > 💡 Remember, we're passing a function that we only want to call WHEN a click event is registered. As a result, we don't call the function when we pass it as an argument.
 
-e. ♻️ Repeat steps a-d for the 'feed' button and the 'sleepiness' button.
+e. Repeat steps a-d for the 'feed' and 'sleepiness' buttons.
 
-> 💡 As a level up, consider how we could make this process more DRY.
+> 🚀 As a Level Up, consider how we could make this process more DRY.
 
 Test it out - as a user, you should now be able to keep your Tamagotchi happy!
 
